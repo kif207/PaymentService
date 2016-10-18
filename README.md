@@ -8,6 +8,7 @@ A web-based solution that Implements PaymentValidator and mock payment page:
 **IsValidCardNumber**: 
 
 A success response (Boolean: true) would be returned when the input meets ALL the below conditions
+
 1. Is all digits only 
 2. Is the expected length as per the card scheme:
     - Visa/Mastercard: 16 digits
@@ -19,12 +20,14 @@ A success response (Boolean: true) would be returned when the input meets ALL th
 **IsValidAmount**: 
 
 A success response (Boolean: true) would be returned if the input meets ALL the below listed conditions
+
 1. Is a positive number
 2. Falls in the range 0 to 999999
 
 **IsValidPaymentTransaction**: 
 
 Returns true when all of the below listed conditions are met:
+
 1. The card number is valid as per the rules stated in IsValidCardNumber above.
 2. The amount is valid as per the rules stated in IsValidAmount above.
 
