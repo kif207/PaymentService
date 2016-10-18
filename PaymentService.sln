@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Common", "PaymentService.Common\PaymentService.Common.csproj", "{54B48ABC-99B0-4CB8-A34E-DE23B90ED687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.WebApi", "PaymentService.WebApi\PaymentService.WebApi.csproj", "{8E6900D5-40CF-4A67-9DF9-9C0428D60D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Tests", "PaymentService.Tests\PaymentService.Tests.csproj", "{7DCDFCF6-BE4F-418F-8FA1-9B7D5FB049A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Web", "PaymentService.Web\PaymentService.Web.csproj", "{91CBEF1C-2EE5-4F5F-97D2-988A03CA38B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54B48ABC-99B0-4CB8-A34E-DE23B90ED687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B48ABC-99B0-4CB8-A34E-DE23B90ED687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B48ABC-99B0-4CB8-A34E-DE23B90ED687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B48ABC-99B0-4CB8-A34E-DE23B90ED687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6900D5-40CF-4A67-9DF9-9C0428D60D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6900D5-40CF-4A67-9DF9-9C0428D60D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6900D5-40CF-4A67-9DF9-9C0428D60D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6900D5-40CF-4A67-9DF9-9C0428D60D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DCDFCF6-BE4F-418F-8FA1-9B7D5FB049A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCDFCF6-BE4F-418F-8FA1-9B7D5FB049A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCDFCF6-BE4F-418F-8FA1-9B7D5FB049A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCDFCF6-BE4F-418F-8FA1-9B7D5FB049A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CBEF1C-2EE5-4F5F-97D2-988A03CA38B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CBEF1C-2EE5-4F5F-97D2-988A03CA38B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CBEF1C-2EE5-4F5F-97D2-988A03CA38B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CBEF1C-2EE5-4F5F-97D2-988A03CA38B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
